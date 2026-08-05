@@ -1,0 +1,6 @@
+items = ["apple", "banana", "STOP", "cherry"]
+for(nums)in items:
+       print(nums)
+       if nums=="STOP":
+             break 
+print("okay okay stop hogya aage ni hai" )
