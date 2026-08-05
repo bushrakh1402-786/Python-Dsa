@@ -1,0 +1,6 @@
+scores=[12,45,-5,67,89]
+for num in scores:
+    print(num)
+    if(num<=-5):
+       break
+print("ended loop krdiya mene ")
