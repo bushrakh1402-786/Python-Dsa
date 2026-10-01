@@ -13,3 +13,7 @@ print(result)
 
 # Output:
 # 6
+           
+len(s)       # number of characters
+s[0]         # first character
+s[len(s)-1]  # last character
