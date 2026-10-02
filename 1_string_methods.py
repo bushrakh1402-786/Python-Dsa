@@ -38,3 +38,42 @@ print(text.lower())
 bushra
 python
 google 
+
+# 3. upper()
+# upper() converts lowercase letters into uppercase letters.
+
+# Example 1: Basic use
+text = "python"
+print(text.upper())
+
+
+# Example 2: Mixed case
+name = "BuShRa"
+print(name.upper())
+
+
+# Example 3: Numbers and symbols remain unchanged
+value = "python123!"
+print(value.upper())
+
+
+# Example 4: Original string is not changed
+s = "Google"
+result = s.upper()
+
+print(s)
+print(result)
+
+
+# Example 5: Case-insensitive comparison
+a = "google"
+b = "GOOGLE"
+
+print(a.upper() == b.upper())
+
+#PYTHON
+BUSHRA
+PYTHON123!
+Google
+GOOGLE
+True
