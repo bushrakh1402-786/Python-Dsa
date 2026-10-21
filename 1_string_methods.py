@@ -317,7 +317,7 @@ print(text.startswith("Programming"))
 
 
 
-# Method : 15
+# Method : 14
 # Method: endswith()
 # Google Placement 2027
 
@@ -328,6 +328,28 @@ print(filename.endswith(".py"))
 website = "google.com"
 print(website.endswith(".in"))
 # Output: False
+
+
+
+
+# Method 15: split()
+# DSA Preparation - Google Placement 2027
+
+# split() divides a string into a list of substrings.
+
+# Example 1: Split by whitespace
+text = "Google DSA Preparation"
+print(text.split())
+# Output: ['Google', 'DSA', 'Preparation']
+
+# Example 2: Split by comma
+languages = "Python,Java,C++"
+print(languages.split(","))
+# Output: ['Python', 'Java', 'C++']
+
+# Time Complexity: O(n)
+# Auxiliary Space: O(n)
+
 
 
 
