@@ -224,4 +224,27 @@ print(text.index("na"))
 # Output: 2
 
 
+# Method 10: rfind()
+
+# Definition:
+# rfind() returns the index of the last occurrence
+# of a substring. If not found, it returns -1.
+
+# Syntax:
+# string.rfind(substring)
+
+
+# Example 1
+text = "hello hello"
+print(text.rfind("hello"))
+
+# Output: 6
+
+
+# Example 2
+text = "banana"
+print(text.rfind("na"))
+
+# Output: 4
+
 
