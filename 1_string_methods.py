@@ -124,4 +124,104 @@ print(text.title())
 
 # Output: Welcome To Python
 
-#Method 6: 
+#Method 6: swapcase()
+
+
+# Definition:
+# Converts uppercase letters to lowercase
+# and lowercase letters to uppercase.
+
+# Syntax:
+# string.swapcase()
+
+
+# Example 1
+text = "Hello World"
+print(text.swapcase())
+
+# Output: hELLO wORLD
+
+
+# Example 2
+text = "PYTHON dsa"
+print(text.swapcase())
+
+# Output: python DSA
+
+
+# Method 7: casefold()
+
+# Definition:
+# casefold() string ko lowercase mein convert karta hai.
+# Ye case-insensitive string comparison ke liye useful hai.
+
+# Syntax:
+# string.casefold()
+
+
+# Example 1
+text = "HELLO WORLD"
+print(text.casefold())
+
+# Output: hello world
+
+
+# Example 2
+text1 = "Python"
+text2 = "PYTHON"
+
+print(text1.casefold() == text2.casefold())
+
+# Output: True
+
+
+# Method 8: find()
+
+# Definition:
+# find() method string mein substring ki position return karta hai.
+# Agar substring nahi milti, toh -1 return karta hai.
+
+# Syntax:
+# string.find(substring)
+
+
+# Example 1
+text = "hello world"
+print(text.find("world"))
+
+# Output: 6
+
+
+# Example 2
+text = "banana"
+print(text.find("na"))
+
+# Output: 2
+
+
+
+# Method 9: index()
+
+# Definition:
+# index() method substring ki first occurrence ka index return karta hai.
+# Agar substring nahi milti, toh ValueError raise hota hai.
+
+# Syntax:
+# string.index(substring)
+
+
+# Example 1
+text = "hello world"
+print(text.index("world"))
+
+# Output: 6
+
+
+# Example 2
+text = "banana"
+print(text.index("na"))
+
+# Output: 2
+
+
+
