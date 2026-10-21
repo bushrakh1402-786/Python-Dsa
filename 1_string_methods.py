@@ -317,6 +317,20 @@ print(text.startswith("Programming"))
 
 
 
+# Method : 15
+# Method: endswith()
+# Google Placement 2027
+
+filename = "hello.py"
+print(filename.endswith(".py"))
+# Output: True
+
+website = "google.com"
+print(website.endswith(".in"))
+# Output: False
+
+
+
 
 
 
