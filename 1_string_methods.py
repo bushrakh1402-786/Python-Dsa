@@ -248,3 +248,75 @@ print(text.rfind("na"))
 # Output: 4
 
 
+
+# Method 11: rindex()
+
+# Definition:
+# rindex() returns the index of the last occurrence
+# of a substring. If not found, it raises ValueError.
+
+# Syntax:
+# string.rindex(substring)
+
+
+# Example 1
+text = "hello hello"
+print(text.rindex("hello"))
+
+# Output: 6
+
+
+# Example 2
+text = "banana"
+print(text.rindex("na"))
+
+# Output: 4
+
+
+
+
+# Method 12: count()
+
+# Definition:
+# count() returns the number of non-overlapping
+# occurrences of a substring in a string.
+
+# Syntax:
+# string.count(substring)
+
+
+# Example 1
+text = "banana"
+print(text.count("a"))
+
+# Output: 3
+
+
+# Example 2
+text = "mississippi"
+print(text.count("ss"))
+
+# Output: 2
+
+
+
+# 13. startswith() Method
+
+# Example 1
+text = "Google Placement"
+print(text.startswith("Google")) 
+
+ # Output: True
+
+# Example 2
+text = "Python Programming"
+print(text.startswith("Programming"))  
+
+
+# Output: False
+
+
+
+
+
+
