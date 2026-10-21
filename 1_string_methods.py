@@ -2,7 +2,7 @@
  STRING METHODS - 42 TOPIC SEQUENCE
 ==========================================
 
-# 1. len()
+# Method 1. len()
 # Returns the number of characters in a string.
 
 name = "Bushra"
@@ -20,7 +20,7 @@ s[len(s)-1]  # last character
 
 
 
-# 2. lower()
+# Method 2. lower()
 
 # lower() converts all uppercase letters into lowercase.
 
@@ -39,7 +39,7 @@ bushra
 python
 google 
 
-# 3. upper()
+# Method 3. upper()
 # upper() converts lowercase letters into uppercase letters.
 
 # Example 1: Basic use
@@ -77,3 +77,51 @@ PYTHON123!
 Google
 GOOGLE
 True
+
+
+ #Method 4: capitalize()
+
+# Definition:
+# First character uppercase aur baaki characters lowercase ho jaate hain.
+
+# Syntax:
+# string.capitalize()
+
+
+# Example 1
+text = "hello world"
+print(text.capitalize())
+
+# Output: Hello world
+
+
+# Example 2
+text = "hELLO PYTHON"
+print(text.capitalize())
+
+# Output: Hello python
+
+   #Method 5 :tittle()
+
+# Definition:
+# title() method har word ke first character ko
+# uppercase aur baaki characters ko lowercase banata hai.
+
+# Syntax:
+# string.title()
+
+
+# Example 1
+text = "hello world"
+print(text.title())
+
+# Output: Hello World
+
+
+# Example 2
+text = "welcome to python"
+print(text.title())
+
+# Output: Welcome To Python
+
+#Method 6: 
