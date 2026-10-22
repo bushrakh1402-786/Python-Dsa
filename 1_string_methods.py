@@ -353,6 +353,28 @@ print(languages.split(","))
 
 
 
+# Method 18: rsplit()
+# DSA Preparation - Google Placement 2027
+
+# rsplit() splits a string from the right
+# and returns a list.
+
+# Example 1: Split once from the right
+text = "apple-banana-mango"
+print(text.rsplit("-", 1))
+# Output: ['apple-banana', 'mango']
+
+# Example 2: Split using whitespace
+text = "Python Java C++"
+print(text.rsplit())
+# Output: ['Python', 'Java', 'C++']
+
+# Time Complexity: O(n)
+# Auxiliary Space: O(n)
+
+
+
+
 
 
 
