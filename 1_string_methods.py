@@ -353,7 +353,7 @@ print(languages.split(","))
 
 
 
-# Method 18: rsplit()
+# Method 16: rsplit()
 # DSA Preparation - Google Placement 2027
 
 # rsplit() splits a string from the right
@@ -371,6 +371,118 @@ print(text.rsplit())
 
 # Time Complexity: O(n)
 # Auxiliary Space: O(n)
+
+
+
+# Method 17: join()
+# DSA Preparation - Google Placement 2027
+
+# join() combines multiple strings into one string
+# using a specified separator.
+
+# Example 1: Join using a space
+words = ["Google", "DSA", "Preparation"]
+result = " ".join(words)
+print(result)
+# Output: Google DSA Preparation
+
+# Example 2: Join using a hyphen
+languages = ["Python", "Java", "C++"]
+result = "-".join(languages)
+print(result)
+# Output: Python-Java-C++
+
+# Time Complexity: O(n)
+# Auxiliary Space: O(n)
+
+
+
+
+# Method 18: replace()
+# DSA Preparation - Google Placement 2027
+
+# replace() replaces occurrences of old text
+# with new text and returns a new string.
+
+# Example 1: Replace a word
+text = "I like Java"
+result = text.replace("Java", "Python")
+print(result)
+# Output: I like Python
+
+# Example 2: Replace limited occurrences
+text = "cat cat cat"
+result = text.replace("cat", "dog", 2)
+print(result)
+# Output: dog dog cat
+
+# Time Complexity: O(n)
+# Auxiliary Space: O(n)
+
+
+
+
+# Method 19: strip()
+# DSA Preparation - Google Placement 2027
+
+# Definition:
+# strip() removes whitespace from the beginning
+# and end of a string.
+# It can also remove specified characters from both ends.
+
+# Example 1: Remove leading and trailing spaces
+text = "   Google DSA   "
+result = text.strip()
+print(result)
+
+# Output:
+# Google DSA
+
+
+# Example 2: Remove specified characters from both ends
+text = "xxPythonxx"
+result = text.strip("x")
+print(result)
+
+# Output:
+# Python
+
+
+# Time Complexity: O(n)
+# Auxiliary Space: O(n)
+
+
+
+
+# Method 20: lstrip()
+# DSA Preparation - Google Placement 2027
+
+# Definition:
+# lstrip() removes leading whitespace or
+# specified characters from the beginning of a string.
+
+# Example 1: Remove leading spaces
+text = "   Google DSA   "
+result = text.lstrip()
+print(result)
+
+# Output:
+# Google DSA   
+
+
+# Example 2: Remove specified characters from the beginning
+text = "xxPythonxx"
+result = text.lstrip("x")
+print(result)
+
+# Output:
+# Pythonxx
+
+
+# Time Complexity: O(n)
+# Auxiliary Space: O(n)
+
+
 
 
 
